@@ -1,0 +1,141 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Flutter: Get Dependencies",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "pub", "get"],
+            "group": "build",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Flutter: Clean",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "clean"],
+            "group": "build",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Flutter: Build macOS",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "build", "macos"],
+            "group": "build",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Flutter: Build APK",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "build", "apk"],
+            "group": "build",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Flutter: Build iOS",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "build", "ios"],
+            "group": "build",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Flutter: Build Web",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "build", "web"],
+            "group": "build",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Flutter: Run Tests",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "test"],
+            "group": "test",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Flutter: Analyze",
+            "type": "shell",
+            "command": "fvm",
+            "args": ["flutter", "analyze"],
+            "group": "build",
+            "options": {
+                "cwd": "viam_camera_app"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "panel"
+            },
+            "problemMatcher": []
+        }
+    ]
+} 

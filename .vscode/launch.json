@@ -1,0 +1,87 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter (macOS Debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "deviceId": "macos",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (macOS Profile)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "deviceId": "macos",
+            "flutterMode": "profile",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (macOS Release)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "deviceId": "macos",
+            "flutterMode": "release",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (Debug Mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (Profile Mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "flutterMode": "profile",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (Release Mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "flutterMode": "release",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (iOS Simulator)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "deviceId": "ios",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (Android Emulator)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "deviceId": "android",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        },
+        {
+            "name": "Flutter (Web)",
+            "request": "launch",
+            "type": "dart",
+            "program": "viam_camera_app/lib/main.dart",
+            "deviceId": "chrome",
+            "cwd": "viam_camera_app",
+            "toolArgs": ["--flutter-sdk", "fvm flutter"]
+        }
+    ]
+} 
