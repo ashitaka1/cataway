@@ -1,0 +1,15 @@
+{
+    "dart.flutterSdkPath": null,
+    "dart.enableSdkFormatter": true,
+    "dart.lineLength": 100,
+    "dart.debugSdkLibraries": false,
+    "dart.debugExternalLibraries": false,
+    "dart.evaluateGettersInDebugViews": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "flutter.experimentalPlatformChannelInTests": true,
+    "flutter.experimentalWindows": true,
+    "flutter.experimentalMacOS": true,
+    "flutter.experimentalLinux": true,
+    "flutter.experimentalWeb": true
+} 
